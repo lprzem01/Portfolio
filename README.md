@@ -52,7 +52,7 @@
 <ul>
     <li><strong>Biodiversity by country:</strong> Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</li>
     <li><strong>Most common species:</strong>  Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</li>
-    <li><strong>Biodiversity by month:</strong> Fail to reject the null hypothesis. August biodiversity is not significantly different than expected by chance..</li>
+    <li><strong>Biodiversity by month:</strong> Failed to reject the null hypothesis. August biodiversity is not significantly different than expected by chance..</li>
 </ul>
     
 <h2>Conclusion</h2>
