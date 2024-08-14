@@ -6,7 +6,7 @@
 <h3>1. Biodiversity Based on Depth</h3>
 <p>The analysis of biodiversity based on depth shows how marine species are distributed across different ocean depths. Depths were categorized into the following ranges: 0-200m, 201-500m, 501-1000m, and greater than 1000m. The majority of species were recorded in shallow waters (0-200m), highlighting the rich biodiversity in these areas, possibly due to the availability of light and nutrients.</p>
 <div class="graph-container">
-    <img src="depth_biodiversity.png" alt="Biodiversity according to depth">
+    <img src="Biodiversity according to different variables.png" alt="Biodiversity according to depth">
 </div>
 <h3>2. Biodiversity Based on Countries of Discovery</h3>
 <p>This analysis illustrates the distribution of marine biodiversity across different countries. The top 10 countries with the highest recorded species diversity were identified, with Country A leading, followed by Country B and Country C. This distribution can be influenced by various factors including geographical location, marine research activity, and conservation efforts.</p>
