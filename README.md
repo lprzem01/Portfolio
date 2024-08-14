@@ -35,6 +35,10 @@
 
 <h2>Species and Genus Frequency Analysis</h2>
 <p>The most and least common species and genera were identified based on the frequency of occurrences in the dataset. Species like Pelagia noctiluca and genera such as Pinna and Caulerpa were among the most frequently recorded.</p>
+<div class="graph-container">
+    <img src="Most common species.png" alt="Most Common Species">
+</div>
+
 
 <h2>Statistical Hypothesis Testing</h2>
 <p>Two null hypotheses were tested:</p>
