@@ -28,7 +28,6 @@
 
 <p>Biodiversity showed a distinct peak in August. Similar to the depth analysis, this peak could be biased if sampling was not conducted uniformly throughout the year.</p>
 
-<h3>Graphical Representation</h3>
 
 <div class="graph-container">
     <img src="Biodiversity according to different variables.png" alt="Global Marine Biodiversity">
