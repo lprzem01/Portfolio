@@ -1,34 +1,51 @@
 <h1> Analysis of global marine biodiversity </h1>
-<h1>Global Marine Biodiversity Report</h1>
-<p>Dataset references: GBIF.org (31 January 2024) GBIF Occurrence Download <a href="https://doi.org/10.15468/dl.uabtae">https://doi.org/10.15468/dl.uabtae</a></p>
-<h2>Data Inspection and Preparation</h2>
-<p>The dataset was loaded from the file <em>"Global Marine biodiversity data.csv"</em>. Initial inspection revealed a total of 50 columns. Missing data entries were filled with "Unknown" to ensure consistency in analysis.</p>
-<h2>Hypothesis Testing and Biodiversity Analysis</h2>
-<p>To understand marine biodiversity trends, the following hypotheses were tested:</p>
+<h2>Dataset Overview</h2>
+<p>The dataset used for this analysis, titled "Global Marine Biodiversity Data," was obtained from GBIF.org (31 January 2024) through the GBIF Occurrence Download. The dataset includes extensive records on marine species, detailing their occurrences, classifications, and other relevant metadata across various global locations. <a href="https://doi.org/10.15468/dl.uabtae">https://doi.org/10.15468/dl.uabtae</a></p>
+<h2>Data preparation</h2>
+<p>The dataset was initially loaded and cleaned by replacing missing values with "Unknown" to maintain the integrity of the dataset. The cleaned dataset was structured into a DataFrame with 50 columns, which included information on species identification, taxonomy, location, date, depth, and other attributes relevant to biodiversity studies.</p>
+
+<h2>Biodiversity Analysis</h2>
+<p>Biodiversity was analyzed based on various factors such as depth, country, year, and month. The key steps and findings are summarized below:</p>
 <ul>
-    <li><strong>H1:</strong> Marine biodiversity is significantly higher in shallow waters (0-200m) compared to deeper waters.</li>
-    <li><strong>H2:</strong> There is a significant difference in marine biodiversity among different countries.</li>
-    <li><strong>H3:</strong> The number of recorded marine species has significantly increased over the years.</li>
-    <li><strong>H4:</strong> The basis of record (e.g., human observation, machine observation) significantly influences the recorded biodiversity data.</li>
+    <li>Color Scheme for Biodiversity Visualization: A predefined color scheme was established using CSS4 color names to ensure a consistent and visually distinct representation of biodiversity across different variables</li>
+    <li>Species Count Analysis: Custom functions were implemented to count the number of species per group (e.g., by depth, country, year, and month) and to calculate the number of unique species in each group. Biodiversity was then quantified using a ratio of total species to unique species.</li>
 </ul>
-<h3>Results</h3>
-<p>The analysis was conducted using data on biodiversity according to depth, country of discovery, year, and basis of record. A single image was generated to summarize the findings, which includes the following graphs:</p>
-<ul>
-    <li><strong>Biodiversity by Depth:</strong> Distribution of marine species across different ocean depths.</li>
-    <li><strong>Biodiversity by Country:</strong> Top 10 countries with the highest recorded species diversity.</li>
-    <li><strong>Biodiversity by Year:</strong> Trends in species discovery over time.</li>
-    <li><strong>Biodiversity by Basis of Record:</strong> The influence of different recording methods on biodiversity data.</li>
-</ul>
+
+<h2>Findings</h2>
+<h3>Biodiversity by Depth:</h3>
+
+<p>Species were primarily identified in shallow waters. However, this may be attributed to sampling bias, as shallow areas are more accessible.</p>
+
+<h3>Biodiversity by Country:</h3>
+
+<p>Spain exhibited the highest biodiversity, which could indicate either a genuine biodiversity hotspot or reflect higher sampling efforts in the region.</p>
+
+<h3>Biodiversity by Year:</h3>
+
+<p>A peak in biodiversity was observed around the years 2000-2005. This may correspond to increased sampling efforts or awareness during this period.</p>
+
+<h3>Biodiversity by Month:</h3>
+
+<p>Biodiversity showed a distinct peak in August. Similar to the depth analysis, this peak could be biased if sampling was not conducted uniformly throughout the year.</p>
+
+<h3>Graphical Representation</h3>
+
 <div class="graph-container">
     <img src="basis_record_biodiversity.png" alt="Biodiversity according to basis of record">
 </div>
-<h2>Conclusions</h2>
-<p>Based on the analysis and hypothesis testing:</p>
-<ul>
-    <li><strong>H1: Accepted.</strong> The analysis supports that marine biodiversity is significantly higher in shallow waters (0-200m). This could be due to factors like light availability and nutrient concentration.</li>
-    <li><strong>H2: Accepted.</strong> There is a significant difference in biodiversity across countries, with some countries exhibiting much higher species diversity. This could be due to geographical advantages, more extensive research activities, and differing conservation efforts.</li>
-    <li><strong>H3: Accepted.</strong> There has been a significant increase in recorded marine species over the years. The trend reflects advancements in technology, increased research efforts, and heightened awareness of marine conservation.</li>
-    <li><strong>H4: Accepted.</strong> The basis of record significantly influences biodiversity data. Human observation is predominant, but machine observation and preserved specimen records are also important, reflecting evolving research methodologies.</li>
-</ul>
-<p>The results underscore the importance of continuous and diversified efforts in marine research and conservation to preserve global marine biodiversity.</p>
 
+<h2>Species and Genus Frequency Analysis</h2>
+<p>The most and least common species and genera were identified based on the frequency of occurrences in the dataset. Species like Pelagia noctiluca and genera such as Pinna and Caulerpa were among the most frequently recorded.</p>
+
+<h2>Statistical Hypothesis Testing</h2>
+<p>Two null hypotheses were tested:</p>
+
+<ul>
+    <li>Biodiversity Distribution Among Countries:</li>
+    <p>A Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</p>
+    <li>SCommonality of Pelagia noctiluca</li>
+    <p>A Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</p>
+</ul>
+
+<h2>Conclusion</h2>
+<p>The analysis provided insights into global marine biodiversity trends based on multiple variables, highlighting areas of potential bias and the need for further investigation, particularly in sampling practices. Spain's high biodiversity and the observed peak in biodiversity during certain periods and locations warrant further research to determine whether these patterns are due to natural factors or methodological biases. Statistical testing revealed no significant anomalies in species distribution, supporting the general findings of the dataset analysis.</p>
