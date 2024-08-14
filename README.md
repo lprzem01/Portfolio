@@ -31,7 +31,7 @@
 <h3>Graphical Representation</h3>
 
 <div class="graph-container">
-    <img src="basis_record_biodiversity.png" alt="Biodiversity according to basis of record">
+    <img src="Biodiversity according to different variables.png" alt="Global Marine Biodiversity">
 </div>
 
 <h2>Species and Genus Frequency Analysis</h2>
@@ -41,11 +41,16 @@
 <p>Two null hypotheses were tested:</p>
 
 <ul>
-    <li>Biodiversity Distribution Among Countries:</li>
-    <p>A Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</p>
-    <li>SCommonality of Pelagia noctiluca</li>
-    <p>A Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</p>
+    <li><strong>H1:</strong> Biodiversity is randomly distributed among countries</li>
+    <li><strong>H2:</strong> Pelagia noctiluca is not significantly more common than other species</li>
+    <li><strong>H3:</strong> August does not show significantly increased Biodiversity.</li>
 </ul>
 
+<ul>
+    <li><strong>Biodiversity by country:</strong> Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</li>
+    <li><strong>Most common species:</strong>  Chi-Squared test was performed to determine if biodiversity is randomly distributed among countries, specifically focusing on Spain. The test concluded that biodiversity in Spain is not significantly different from what would be expected by chance, failing to reject the null hypothesis.</li>
+    <li><strong>Biodiversity by month:</strong> Fail to reject the null hypothesis. August biodiversity is not significantly different than expected by chance..</li>
+</ul>
+    
 <h2>Conclusion</h2>
 <p>The analysis provided insights into global marine biodiversity trends based on multiple variables, highlighting areas of potential bias and the need for further investigation, particularly in sampling practices. Spain's high biodiversity and the observed peak in biodiversity during certain periods and locations warrant further research to determine whether these patterns are due to natural factors or methodological biases. Statistical testing revealed no significant anomalies in species distribution, supporting the general findings of the dataset analysis.</p>
